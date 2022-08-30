@@ -1,0 +1,187 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+   background-color: white;
+    }
+   
+    div.introduce{
+        margin: 0;
+        width: 1005;
+        height: 100px;
+        background: rgb(17,18,18);
+        background: linear-gradient(39deg, rgba(17,18,18,1) 8%, rgba(20,18,18,1) 44%, rgba(249,2,2,0.8188317563353467) 100%, rgba(7,7,8,0.7796160700608368) 300%);
+    }
+    h1.introduce{
+        padding-top: 30px;
+        color: wheat;
+        padding-left: 50px;
+    }
+        
+    ul.header{
+        display: flex;
+    justify-content: space-evenly;
+        list-style-type: none;
+        background-color: black;
+        margin: 0;
+        padding: 0;
+        
+    
+    }
+    li a{
+        text-decoration: none;
+        color: wheat;
+        display: inline-block;
+        
+       
+    
+    }
+    li.header{
+        display: inline-block;
+        padding: 20px;
+        
+        
+        
+    }
+    
+    li a:hover{
+        color: red;
+    }
+    div{
+        width: 100%;
+        height: 50px;
+        background-color: red;
+       display: inline-block;
+       margin: 0;
+        
+        
+    
+    }
+    
+    p{
+        color: wheat;
+        text-align: center;
+    
+    }
+    a{
+        text-decoration: none;
+        color: wheat;
+    
+    }
+    a:hover{
+        color: black;
+    }
+    div.mainipad{
+        width: 100%;
+        height: 400px;
+        background-color: white;
+    }
+    img.ipad1{
+        width: 50%;
+        height: 400px;
+        margin-top: 40px;
+        float: right;
+    }
+    h1.ipad1{
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 10px;
+        color: salmon;
+        text-shadow: 2px 2px 2px royalblue;
+        font-size: xx-large;
+    }
+    p.ipad1{
+        color: salmon;
+        text-align: center;
+        font-weight: bolder;
+        font-style: italic;
+    }
+    div.ipad2{
+        width: 100%;
+        height: 400px;
+        background-color: white;
+    }
+    img.ipad2{
+        width: 50%;
+        height: 400px;
+        margin-top: 40px;
+        float: right;
+    }
+    h1.ipad2{
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 10px;
+        margin-bottom: 10px;
+        color:#333333;
+        text-shadow: 2px 2px 2px rgb(148, 65, 225);
+        font-size: xx-large;
+    }
+    p.ipad2{
+        color: #333333;;
+        text-align: center;
+        font-weight: bolder;
+        font-style: italic;
+    }
+    div.ipad3{
+        width: 100%;
+        height: 400px;
+        background-color: white;
+    }
+    img.ipad3{
+        width: 50%;
+        height: 400px;
+        margin-top: 40px;
+        float: right;
+    }
+    h1.ipad3{
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 10px;
+        margin-bottom: 10px;
+        color:#333333;
+        text-shadow: 2px 2px 2px orange;
+        font-size: xx-large;
+    }
+    p.ipad3{
+        color: orangered;;
+        text-align: center;
+        font-weight: bolder;
+        font-style: italic;
+    }
+    span.ipad3{
+        color: #333333;
+        text-shadow: 2px 2px 2px orangered;
+        font-size: 30px;
+        margin-bottom: 30px;
+
+
+    }
+    div.footer{
+        width: 100%;
+        height: 100px;
+        background-color:#333 ;
+        margin-top: 50px;
+    }
+    ul.footer{
+        display: flex;
+        justify-content: space-around;
+        list-style-type: none;
+    }
+    li.footer{
+        padding-top: 40px;
+        cursor: pointer;
+        color: black;
+    } 
+    div.end{
+        background-color: white;
+        width: 100%;
+        height: 70px;
+    }
+    p.end{
+        padding-top: 30px;
+        text-align: center;
+        color: #333;
+    }
+     

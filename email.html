@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="email.css">
+    <script type="text/javascript">
+    function validform(){
+        var feild=document.forms["form-1"]["name-1"].value;
+        var feild=document.forms["form-1"]["last-1"].value;
+        var feild=document.forms["form-1"]["mail-1"].value;
+
+
+        if(feild== null || feild==""){
+            alert("this feild is neccessary");
+            return false;
+        }
+    }
+    </script>
+</head>
+<body>
+    <div class="container">
+    <p>Here is my Email-address<span class="badge badge-secondary badge-pill mt-5">maryam.nikokar77@gmail.com</span></p>
+    <hr>
+    <p>You can ask your questions below... </p>
+</div>
+<div class="container"></div>
+    
+<form action="email.html" name="form-1" class="form-group">
+    <label for="" form-control-lable>firstname</label>
+    <input type="text"  name="name-1" class="form-control "   placeholder="firstname" required>
+    <label for="" form-control-lable>lastname</label>
+    <input type="text" name="last-1" class="form-control " placeholder="lastname" required>
+    <label for="" form-control-lable>e-mail</label>
+    <input type="email"  name="mail-1" class="form-control " placeholder="e-mail" required>
+    <br>
+    <textarea name="" id="" cols="100%" rows="5"  placeholder="Your comment..." ></textarea>
+    <button type="submit" value="submit" class="btn-outline-info " onclick="validform()">submit</button>
+
+
+
+</form>
+</body>
+<footer>
+    <div  class="footer">
+        <ul class="footer">
+            <li class="footer"><a href="about.html">about us</a></li>
+            <li class="footer"><a href="cons.html">consulation</a></li>
+            <!-- <li class="footer"><a href="#">help</a></li> -->
+            <li class="footer"><a href="email.html">E-mail Address</a></li>
+            
+        </ul>
+    </div>
+    <div class="end">
+        <p class="end">All rights reserved to AppleShow store</p>
+    </div>
+</footer>
+</html>

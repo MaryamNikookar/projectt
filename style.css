@@ -1,0 +1,299 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+
+background-color: white;
+}
+div.fix{
+    position: fixed;
+}
+
+
+div.introduce{
+
+   
+    width: 1005;
+    height: 100px;
+    background: rgb(17,18,18);
+    background: linear-gradient(39deg, rgba(17,18,18,1) 8%, rgba(20,18,18,1) 44%, rgba(249,2,2,0.8188317563353467) 100%, rgba(7,7,8,0.7796160700608368) 300%);
+}
+h1.introduce{
+    padding-top: 30px;
+    color: wheat;
+    padding-left: 50px;
+}
+    
+ul.header{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    
+
+    
+
+}
+li a{
+    text-decoration: none;
+    color: wheat;
+    display: inline-block;
+
+
+
+    
+   
+
+}
+li.header{
+    display: inline-block;
+    padding: 20px;
+    
+    
+    
+}
+
+li a:hover{
+    color: red;
+}
+div{
+    
+    width: 100%;
+    height: 50px;
+    background-color: red;
+   display: inline-block;
+   margin: 0;
+   
+    
+    
+
+}
+
+p{
+    color: wheat;
+    text-align: center;
+
+
+}
+a{
+    text-decoration: none;
+    color: wheat;
+
+}
+a:hover{
+    color: black;
+}
+div.main{
+    margin-top: 150px;
+    width: 100%;
+    height: 400px;
+    background-color:black;
+}
+img{
+    width: 50%;
+    height: 100px;
+}
+h1.iphone12{
+    padding-top: 50px;
+    text-align: center;
+    color: red;
+    text-shadow: 2px 2px 2px lightyellow;
+}
+p.iphone12{
+    color: white;
+}
+img.iphone12{
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: 200px;
+    
+
+}
+div.macbookpro
+{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+}
+h1.macbookpro{
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px 2px red;
+   
+}
+p.macbookpro{
+    text-align: center;
+    color:black;
+}
+a.macbookpro{
+    color: black;
+}
+img.macbookpro{
+    display: block;
+    margin: auto;
+    width: 30%;
+    height: 200px;
+}
+div.ipadpro
+{
+    width: 100%;
+    height: 400px;
+   background-color: white;
+}
+h1.ipadpro{
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px 2px royalblue;
+    
+}
+p.ipadpro{
+    text-align: center;
+    color:black;
+}
+a.ipadpro{
+    color: black;
+}
+img.ipadpro{
+    display: block;
+    margin: auto;
+    width: 30%;
+    height: 200px;
+}
+div.applewatch{
+    width: 49%;
+    height: 400px;
+    background-color: black;
+    border-radius: 10px;
+}
+h1.applewatch{
+    
+    text-align: center;
+    color: rgb(243, 16, 16);
+    text-shadow: 2px 2px 2px royalblue;
+    
+}
+img.applewatch{
+    display: block;
+    margin: auto;
+    width: 30%;
+    height: 200px;
+}
+hr{
+    width: 30px;
+    color: wheat;
+    text-align: center;
+    display: inline;
+}
+div.airpods{
+    float: right;
+    width: 49%;
+    height: 400px;
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+border-radius: 10px;
+    
+}
+h1.airpods{
+    
+    text-align: center;
+    color: rgb(243, 16, 16);
+    text-shadow: 2px 2px 2px royalblue;
+    
+}
+img.airpods{
+    
+    display: block;
+    margin: auto;
+    width: 30%;
+    height: 200px;
+}
+div.applenews{
+    margin-top: 50px;
+    width: 100%;
+    height: 400px;
+    background-color: white;
+
+}
+img.applenews{
+    padding-top: 50px;
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: 200px;
+}
+h1.applenews{
+    text-align: center;
+    color: salmon;
+    text-shadow : 2px 2px 2px royalblue;
+    
+}
+a.applenews{
+    color: black;
+    
+}
+p.applenews{
+    text-align: center;
+}
+div.appleproduct{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+
+}
+h1.appleproduct{
+    text-align: center;
+    color: black;
+    text-shadow : 2px 2px 2px royalblue;
+    
+}
+img.appleproduct{
+    padding-top: 50px;
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 300px;
+
+}
+h1.vid{
+    text-align: center;
+    color: #333;
+    text-shadow : 2px 2px 2px royalblue;
+    margin-bottom: 60px;
+    margin-top: 60px;
+
+    
+}
+video.vid{
+    margin-bottom: 80px;
+}
+div.footer{
+    width: 100%;
+    height: 100px;
+    background-color:#333 ;
+}
+ul.footer{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+li.footer{
+    padding-top: 40px;
+    cursor: pointer;
+    color: black;
+} 
+div.end{
+    background-color: white;
+    width: 100%;
+    height: 70px;
+}
+p.end{
+    padding-top: 30px;
+    text-align: center;
+    color: #333;
+}
+ 
